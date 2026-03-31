@@ -44,3 +44,8 @@ void tampilPrima() {
     else
         cout << n << " bukan bilangan prima\n" 
 }
+
+void tampilFibonacci() {
+    if (isFibonacci(n))
+        cout << n << " termasuk bilangan Fibonacci\n";
+}
