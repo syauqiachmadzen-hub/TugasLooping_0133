@@ -30,4 +30,8 @@ bool isFibonacci(int n) {
 
     return (n == 0 || b == n);
 }
-   
+ 
+// Prosedur input angka
+void inputAngka(){
+    
+}
