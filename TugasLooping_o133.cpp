@@ -52,6 +52,16 @@ void tampilFibonacci() {
         cout << n << " bukan bilangan Fibonacci\n";    
 }
 
+// Function menu
+void menu() {
+    cout << "\n=== MENU ===\n";
+    cout << "1. Cek Bilangan Prima\n";
+    cout << "2. Cek Bilangan Fibonacci\n";
+    cout << "0. Keluar\n";
+    cout << "Pilih: ";
+    cin >> pilihan;
+}
+
 // Main program
 int main() {
     while (true) {
