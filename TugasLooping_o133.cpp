@@ -55,6 +55,13 @@ void tampilFibonacci() {
 // Main program
 int main() {
     while (true) {
-        menuy();
+        menu();
+        
+        switch (pilihan){
+            case 1:
+             inputAngka();
+             tampilPrima();
+             break;
+        }
     }
 }
