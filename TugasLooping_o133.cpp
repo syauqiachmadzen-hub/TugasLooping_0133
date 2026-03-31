@@ -51,3 +51,10 @@ void tampilFibonacci() {
     else
         cout << n << " bukan bilangan Fibonacci\n";    
 }
+
+// Main program
+int main() {
+    while (true) {
+        menuy();
+    }
+}
